@@ -43,6 +43,7 @@ public class getExcel {
                 row.createCell(9).setCellValue(oldTable.getSheetAt(0).getRow(i).getCell(9).getStringCellValue());
                 row.createCell(10).setCellValue(oldTable.getSheetAt(0).getRow(i).getCell(10).getStringCellValue());
                 j += 1;
+                System.out.println("i am your father");
             } else {
 
 //              设置尾行
